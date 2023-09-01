@@ -1,0 +1,61 @@
+.root {
+    --c-logo: #4D5AE5;
+    --c-pr-dark: #2E2F42;
+    --c-sec-dark: #434455;
+    --c-pr-light: #fff;
+    --c-sec-light: #F4F4FD;
+    --background-c-pr-light: #fff;
+    --background-c-sec-light: #F4F4FD;
+    --background-c-pr-dark: #2E2F42;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+    color: var(--c-main);
+    background-color: var(--background-c-main-light);
+}
+
+.logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--c-pr-dark);
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    text-decoration: none;
+
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.contacts {
+    color: var(--c-sec-dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+/* Header 1 */
+.hero-section {
+    color: var(--c-pr-light);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    font-family: interhit;
+
+}
