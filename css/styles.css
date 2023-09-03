@@ -14,7 +14,9 @@ ul {
     list-style-type: none;
 }
 
-h2 {
+<!--Header-2-->
+.section-title {
+    color: #2E2F42;
     text-align: center;
     font-size: 36px;
     font-weight: 700;
@@ -23,7 +25,8 @@ h2 {
     text-transform: capitalize;
 }
 
-h3 {
+<!--Header-3-->
+.section-list-title {
     color: #2e2f42;
     font-size: 20px;
     font-weight: 500;
@@ -31,6 +34,7 @@ h3 {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 
 .logo {
     font-family: "Raleway", sans-serif;
@@ -136,8 +140,6 @@ h3 {
 
 .section-team-cards {
     background-color:#fff;
-    flex-direction: column;
-    justify-content: center;
     text-align: center;
 }
 
@@ -178,5 +180,4 @@ footer {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
-    line-height: 1.17
 }
