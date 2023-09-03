@@ -1,16 +1,3 @@
-.root {
-    --c-dark: #2E2F42;
-    --c-sec-dark: #434455;
-    --c-light: #fff;
-    --c-sec-light: #F4F4FD;
-    --c-accent: #4D5AE5;
-    --background-c-dark: #2E2F42;
-    --background-c-sec-dark: #434455;
-    --background-c-light: #fff;
-    --background-c-sec-light: #F4F4FD;
-    --background-c-button: #4D5AE5;
-}
-
 body{
     font-family: "Roboto", sans-serif;
     color: #434455;
@@ -72,8 +59,10 @@ h3 {
     text-decoration: none;
 }
 
-.nav-link:active {
-    color: #2E2F42;
+.nav-link:hover,
+.nav-link:focus {
+    color:#404BBF;
+    text-decoration: underline;
 }
 
 .address-link {
@@ -86,7 +75,7 @@ h3 {
 
 .address-link:hover,
 .address-link:focus {
-    color: #434455;
+    color: #404BBF;
 }
 
 .hero-section {
