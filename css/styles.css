@@ -161,7 +161,7 @@ ul {
     text-transform: capitalize;
 }
 
-section-portfolio-title {
+.section-portfolio-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
@@ -169,6 +169,7 @@ section-portfolio-title {
     letter-spacing: 0.02em;
     text-align: left;
 }
+
 .section-portfolio-text {
     line-height: 1.5;
     letter-spacing: 0.02em;
